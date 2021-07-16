@@ -1,0 +1,64 @@
+<div class="detail-characters">
+  <div class="container-xl">
+    <div class="row ">
+      <div class="col-sm-10  mx-auto" >
+        <div class="detail-characters__card card my-4 flex-sm-column  flex-md-row">
+          <img class="detail-characters__img" src="{{ characters.image }}" alt="{{ characters.name }}" />
+
+          <div class="container-fluid  mx-0 px-0">
+              <div class="detail-characters__header card-header bg-none">
+                  <h1 class="detail-characters__title m-0 text-center">{{characters.name}}</h1>
+              </div>
+            <div class="row">
+              <div class="col-6 mx-auto">
+                  
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Ancestry</h4>
+                  <p class="card-fields__par">{{ characters.ancestry }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Eye Colour</h4>
+                  <p class="card-fields__par">{{ characters.eyeColour }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Hair Colour</h4>
+                  <p class="card-fields__par">{{ characters.hairColour }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Patronus</h4>
+                  <p class="card-fields__par">{{ characters.patronus }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Actor</h4>
+                  <p class="card-fields__par">{{ characters.actor }}</p>
+                </div>
+              </div>
+              <div class="col-6 mx-auto">
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Specie</h4>
+                  <p class="card-fields__par">{{ characters.species }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Gender</h4>
+                  <p class="card-fields__par">{{ characters.gender }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">House</h4>
+                  <p class="card-fields__par">{{ characters.house }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Date of Birth</h4>
+                  <p class="card-fields__par">{{ characters.dateOfBirth }}</p>
+                </div>
+                <div class="card-fields">
+                  <h4 class="card-fields__title">Alive</h4>
+                  <p class="card-fields__par">{{ characters.alive }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

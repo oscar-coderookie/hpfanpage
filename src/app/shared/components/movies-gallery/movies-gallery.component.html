@@ -1,0 +1,14 @@
+<div class="movies">
+  <div class="movies__card card" *ngFor="let movie of movies">
+    <img class="movies__img" src="{{ movie.image }}" alt="{{ movie.name }}" />
+
+    <figure class="movies__hover d-flex flex-column justify-content-around">
+      <h3 class="movies__title">{{ movie.name }}</h3>
+
+      <p class="movies__fields">Year</p>
+      <p class="movies__description">{{ movie.year }}</p>
+      <p class="movies__fields">Synopsis</p>
+      <p class="movies__description">{{ movie.synopsis }}</p>
+    </figure>
+  </div>
+</div>

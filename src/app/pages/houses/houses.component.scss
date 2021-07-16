@@ -1,0 +1,42 @@
+.houses{
+    height: calc(100vh - 80px);
+    display: flex;
+    background: url('https://wallpapercave.com/wp/AL2nkYz.jpg');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+    &__img{
+        width: 270px;
+        filter: drop-shadow(5px 3px 6px rgba(255, 255, 255, 0.7))
+    }
+    &__shields{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        font-size: 42px;
+        margin: 30px 0px;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 765px){
+    .houses{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        &__img{
+            width: 130px;
+        }
+        &__title{
+            margin: 10px 0px;
+            font-size: 20px;
+        }
+    }
+}

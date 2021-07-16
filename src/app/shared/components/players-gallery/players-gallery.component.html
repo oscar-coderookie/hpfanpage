@@ -1,0 +1,24 @@
+<div class="block">
+  <div class="container-xl">
+    <ngx-simplebar style="height: 85vh">
+      <div class="row">
+        <div
+          class="gallery-container col-sm-6 col-md-4 col-lg-3"
+          *ngFor="let character of characters; let indexCharacter = index"
+        >
+          <div class="card-harry">
+            <img
+              routerLink="/characters/{{ indexCharacter }}"
+              class="card-harry__img"
+              src="{{ character.image }}"
+              alt="{{ character.name }}"
+            />
+            <figure class="card-harry__hover">
+              <h2>{{ character.name }}</h2>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </ngx-simplebar>
+  </div>
+</div>

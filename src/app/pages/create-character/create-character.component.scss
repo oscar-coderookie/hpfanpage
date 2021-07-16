@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.form-create{
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    background: black;
+
+    &__label{
+        color: white;
+        font-size: 24px;
+    }
+    &__input{
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+    }
+    &__btn{
+        background: none;
+        margin: 15px 0px ;
+        padding: 10px 0px;
+    }
+
+}

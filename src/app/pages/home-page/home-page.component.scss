@@ -1,0 +1,51 @@
+.home{
+    height: calc(100vh - 80px);
+    background: url('https://images8.alphacoders.com/110/1102284.jpg');
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__title{
+        color: white;
+        text-align: center;
+        // text-shadow: 0px 0px 6px black;
+        font-size: 300px;
+        
+    }
+    &__subtitle{
+        font-size: 100px;
+        color: white;
+    }
+}
+.text-gradient {
+    color: transparent;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C); 
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;    
+}
+
+@media (max-width: 765px){
+    .home{
+
+        &__title{
+            font-size: 100px;
+        }
+        &__subtitle{
+            font-size: 50px;
+        }
+    }
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}  

@@ -1,0 +1,33 @@
+
+<div class="form-create">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <form [formGroup]="addNewCharacterForm" (ngSubmit)="addNewCharacter(addNewCharacterForm.value)">
+                    <fieldset>
+                        <label class="form-create__label form-label" for="">Name:</label>
+                        <input type="text" class="form-create__input form-control" formControlName="name">
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-create__label form-label" for="">Species:</label>
+                        <input type="text" class="form-create__input form-control" formControlName="species" >
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-create__label form-label" for="">Gender</label>
+                        <input type="text" class="form-create__input form-control" formControlName="gender" >
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-create__label form-label">Enter a image URL</label>
+                        <input type="text" class="form-create__input form-control" formControlName="image" >
+                    </fieldset>
+                    
+                    
+                    
+                    <button class="form-create__btn form-control" [disabled]="addNewCharacterForm.invalid" type="submit">
+                        Add Character
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

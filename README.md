@@ -6,7 +6,7 @@
 
 # HarryPotterApp
 
-      its a thematic web for displaying characters, movies and houses, developed with angular components.
+its a thematic web for displaying characters, movies and houses, developed with angular components.
       
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
@@ -14,10 +14,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To Clone project:
 
-<ol>
-  <li>Run 'git clone https://github.com/oscar-coderookie/hpfanpage.git' on your project directory.
-    <li>Run 'npm install' for install node modules packages.
-      <li>Run `ng serve` for start a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+      Run 'git clone https://github.com/oscar-coderookie/hpfanpage.git' on your cmd prompt.
+      
+    
+      Run 'npm install' for install node modules packages.
+      
+      
+      Run `ng serve` for start a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
 
